@@ -32,11 +32,11 @@ int main()
         }
         if (position > size - 1)
         {
-            cout << "Yay! You finished the race" << endl;
+            cout << "Yay! You finished the race.." << endl;
             break;
         }
         // To add Delay
-        for (int sleep = 0; sleep < 1; ++sleep)
+        for (int sleep = 0; sleep < 10000000; ++sleep)
             ;
     }
     return 0;
